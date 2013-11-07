@@ -1,0 +1,16 @@
+{
+  "name": "Google Apps Bar Restorer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Move menu for google apps products back to a nav bar on top of the page",
+  "content_scripts": [
+    {
+      "matches": [ "http://*.google.com/*", "https://*.google.com/*" ],
+      "css": [
+        "css/googleappsbar.css"
+      ]
+    }
+  ],
+  "icons": {
+  }
+}
